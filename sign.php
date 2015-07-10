@@ -9,7 +9,7 @@
 	<?php
 		if($_SERVER['REQUEST_METHOD'] == "POST"){
 			$username="root";	
-			$password="pranu$96";
+			$password=" Your_password";
 			$server = "localhost";
 			$connect = mysql_connect($server,$username,$password);
 			
