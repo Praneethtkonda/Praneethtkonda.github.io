@@ -1,0 +1,77 @@
+.header h1 {
+      	align:center;
+      	font-family:Tahoma, Geneva, sans-serif;
+      	font-size:86px;	
+	color:#32419a;
+	}
+.items  {
+      	text-align:center;
+	}
+
+.header {
+        text-align:center;
+        color:white;
+        font-family:Arial Bold;
+        background-color:#32419a;
+        padding:1px;
+	background: url("Photos/h.jpg");
+        }
+.pj {
+	text-align:center;	
+    }
+h1.jumbotron {
+	color:yellow;
+	padding:10px;
+        margin:10px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	background-color:#006699;		
+}
+.jumbotron{
+	border-style:solid;
+	border-color:black;
+	background:url("Photos/fg.png");
+}
+
+ .btn button {
+	color:green;
+	text-align:center;
+	}
+.navbar-default{
+	background-color:#5B67AE !important;
+	border-style:solid;
+	border-color:#5B67AE !important;
+	background:url("Photos/se.jpg");
+}
+bar{
+	color:black;
+}
+li .navbar-default{
+	color:dark black !important;
+}
+
+li:hover {
+	color:green !important;
+}
+.k {
+	text-align:right;
+}
+ul.nav a:hover { color: orange !important; }
+ul.nav a {color:black !important;}
+.active {background-color:#ccffcc !important;}
+
+.main 
+   {
+	padding:20px;
+	background= url("back.jpg");
+
+}
+.footer{
+	padding:25px;
+	size:50px;
+	font-family:Arial;
+	background-color:#343430;
+	text-align:center;
+	color:white;
+}
+.dropdown-menu {background-color:#ccffcc !important;}
+
