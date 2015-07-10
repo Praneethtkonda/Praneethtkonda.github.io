@@ -28,7 +28,7 @@
   <nav class="navbar navbar-default">
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href=Sk.html>Home</a></li>
+        <li class="active"><a href=index.html>Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">categories
           <span class="caret"></span></a>
