@@ -9,7 +9,7 @@
 	<?php
 		if($_SERVER['REQUEST_METHOD'] == "POST"){
 			$username="root";	
-			$password=" Your_password";
+			$password="hello";
 			$server = "localhost";
 			$connect = mysql_connect($server,$username,$password);
 			
@@ -18,15 +18,14 @@
 			}
 			$db=mysql_select_db("kart",$connect);
 			$mail=$_POST['mail'];
-			$pwd=$_POST['pwd'];
-								
-			$sql = mysql_query("SELECT * FROM customers WHERE mail='$mail' AND password= '$pwd'", $connect);
+			$pwd=$_POST['pwd'];								
+			$sqlQuery = "SELECT * FROM customers WHERE mail='$mail' AND password= '$pwd'";
+			$sql = mysql_query( $sqlQuery, $connect );
 			$rows=mysql_num_rows($sql);
-			
-			if($rows==1){
+			if($rows > 0){
 				echo "Login succesful";
 				$_SESSION['name']=$mail;
-				header('Refresh:5 ;url=Sk.php');
+				header('Refresh:2 ;url=Sk.php');
 			}
 			else{
 				echo "Login fail";

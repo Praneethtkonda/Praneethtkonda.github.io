@@ -16,13 +16,13 @@
 <body>
   <body background="Photos/back1.jpg">
 <!-- Header photo -->
-    <div class="header">
-      <h1><img src="Photos/WE.png" height="200" width="200"><strong>     Welcome to T-kart</strong></h1>
+    <div class="header" >
+      <h1><img src="Photos/WE.png" height="200" width="200" ><strong>     Welcome to T-kart</strong></h1>
       <p class="k"><h4 id="date"></h4></p>
       <p style="color:black;"><?php 
 		echo "Welcome  ". $_SESSION['name'];
        ?>
-     </p>
+     </p>	
   </div>
 <!-- Navigational bar -->  
   <nav class="navbar navbar-default">
@@ -33,15 +33,19 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">categories
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Pc Games</a></li>
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">External Harddisks</a></li> 
+            <li><a href="index.html">Pc Games</a></li>
+            <li><a href="index.html">Smartphones</a></li>
+            <li><a href="index.html">External Harddisks</a></li>
+            <li><a href="index.html">Optical Mouse</a></li>
           </ul>
         </li>
         <li><a href="contact.html"><span class="change">Contact us</span></a></li>
         <li><a href="http://www.praneethtkonda.wordpress.com"><span class="change"> Visit my blog</span></a></li>
         <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+        	<li><a href="http://localhost/reg/Project1/cart.php"><span class="glyphicons glyphicons-shopping-cart"></span>Your Cart</a></li>
         	<li><a href="http://localhost/reg/Project1/l.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        </ul>
         </ul>
      </ul>   
     </div>    
@@ -70,8 +74,13 @@
                   </ol>
            </li>      
          </ul>
-     </div> 
+         <form action="http://localhost/reg/Project1/kart/addcart1.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
+     </div>
   </div>
+
   <div class="col-md-3">
     <div class="dropdown">
       <img src="Photos/gm2.jpeg" height="250" width="220" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="margin:10px"> 
@@ -87,6 +96,10 @@
                   </ol>
            </li>      
          </ul>
+			 <form action="http://localhost/reg/Project1/kart/addcart2.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" class="Buy" value="Buy now">		
+	</form>
     </div>
   </div>
   <div class="col-md-3">
@@ -105,6 +118,10 @@
            </li>      
            <li></li> 
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart3.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
     </div>
  </div>   
   <div class="col-md-3">
@@ -122,12 +139,16 @@
                   </ol>
            </li>      
          </ul>
+			 <form action="http://localhost/reg/Project1/kart/addcart4.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
     </div>
   </div>
 </div>
 <!--End of first row -->
 <!-- Mobile phones -->
-<br>
+<br><br>
 <h1 class="jumbotron">Smart phones</h1>
 <div class="row">
    <div class="col-md-3">
@@ -150,6 +171,10 @@
                   </ol>
            </li>      
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart5.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
   </div>
   <div class="col-md-3">
@@ -172,6 +197,10 @@
                   </ol>
            </li>      
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart6.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
   </div>
   <div class="col-md-3">
@@ -195,6 +224,10 @@
                   </ol>
             </li>      
           </ul>
+			 <form action="http://localhost/reg/Project1/kart/addcart7.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
   </div>
   <div class="col-md-3">
@@ -217,12 +250,16 @@
                   </ol>
            </li>      
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart8.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
  </div>
 </div>
 <!--End of second row-->
 <!--Hard disks -->
-<br>
+<br><br>
 <h1 class="jumbotron">External Harddisks</h1>
 <div class="row">
   <div class="col-md-3">
@@ -244,6 +281,10 @@
                   </ol>
            </li>      
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart9.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
  </div>
  <div class="col-md-3">
@@ -264,6 +305,10 @@
                   </ol>
            </li>      
          </ul>
+		 <form action="http://localhost/reg/Project1/kart/addcart10.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
  </div>
  <div class="col-md-3">
@@ -275,15 +320,19 @@
            <li><h3 class="pj">Rs. 5100</h3></li>
            <li><p class="pj">MRP</li>
            <li><h2 class="pj">General Specifications</h2>
-                  <ol>
+                   <ol>
                     <li>1 TB Cloud Storage</li>
                     <li>USB 2.0: 480 Mbps, USB 3.0: 5 Gbps Transfer Speed</li>
                     <li>Windows XP, Windows Vista, Windows 7,(Mac OS supports only USB 2.0) OS Supported</li>
                     <li>Weight:-220 g/Dimensions:-80 x 16 x 126 mm</li>
-                    <li>2.5 inch Total Area
+                    <li>2.5 inch Total Area</li>
                   </ol>
            </li>      
          </ul>
+		<form action="http://localhost/reg/Project1/kart/addcart11.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
  </div>
  <div class="col-md-3">
@@ -304,14 +353,117 @@
                   </ol>
            </li>      
          </ul>
+		<form action="http://localhost/reg/Project1/kart/addcart12.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
      </div> 
  </div>
 </div>
 <!--Last row of  -->
+<br><br>
+<h1 class="jumbotron">Optical Mouse</h1>   
+<div class="row">
+    <div class="col-md-3">
+     <img src="Photos/m1.jpeg" height="250" width="220" style="margin:10px">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="margin:10px">know more</button> 
+          <ul class="dropdown-menu">
+            <li><h2 class="pj"><legend>Microsoft WMM 1000 Wireless Mouse</legend></h2></li>
+            <li><h3 class="pj">Rs. 999</h3></li>
+            <li><p class="pj">MRP</li>
+            <li><h2 class="pj">Specs</h2>
+                  <ol>
+                    <li>3 Buttons</li>
+                    <li>color:<strong>Black</strong></li>
+                    <li>Contains a nano receiver with plug and play</li>
+                    <li>Supports almost all operating systems</li>
+                    <li>Weighs 74.5g</li>
+                  </ol>
+           </li>      
+         </ul>
+			<form action="http://localhost/reg/Project1/kart/addcart13.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
+     </div> 
+  </div>
+  <div class="col-md-3">
+      <img src="Photos/m2.jpeg" height="250" width="220" style="margin:10px">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="margin:10px">know more</button>
+         <ul class="dropdown-menu" role="menu">
+           <li><h2 class="pj"><legend>Dell Optical Mouse</legend></h2></li>
+           <li><h3 class="pj">Rs. 694</h3></li>
+           <li><p class="pj">MRP</li>
+           <li><h2 class="pj">Specs</h2>
+                  <ol>
+                    <li>3 Buttons</li>
+                    <li>Supports all Operating systems</li>
+                    <li>Optical Technology</li>
+                    <li>Plug and Play facility</li>
+                    <li>1 Year Battery Life</li>
+                  </ol>
+           </li>      
+         </ul>
+		<form action="http://localhost/reg/Project1/kart/addcart14.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <img src="Photos/m3.jpeg" height="250" width="220" style="margin:10px">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="margin:10px">know more</button> 
+         <ul class="dropdown-menu">
+           <li><h2 class="pj"><legend>HP Optical Mouse</legend></h2></li>
+           <li><h3 class="pj">Rs. 709</h3></li>
+           <li><p class="pj">MRP</li>
+           <li><h2 class="pj">Specs</h2>
+                  <ol>
+                    <li>2 Buttons</li>
+                    <li>Model:<strong>X3500</strong></li>
+                    <li>Weighs 95g</li>
+                    <li>Supports almost all Operating systems</li>
+                    <li>Plug and play facility</li>
+                  </ol>
+           </li>      
+         </ul>
+   		<form action="http://localhost/reg/Project1/kart/addcart15.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
+   </div>
+ </div>   
+  <div class="col-md-3">
+    <img src="Photos/m4.jpeg" height="250" width="220" style="margin:10px" style="rotate:right">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="margin:10px">know more</button>
+         <ul class="dropdown-menu">
+           <li><h2 class="pj"><legend>Lenovo N50 Wireless Mouse</legend></h2></li>
+           <li><h3 class="pj">Rs. 720</h3></li>
+           <li><p class="pj">MRP</li>
+           <li><h2 class="pj">Specs</h2>
+                  <ol>
+                    <li>3 Buttons</li>
+                    <li>Resolution:<strong>1000 dpi</strong></li>
+                    <li>Plug and play facility</li>
+                    <li>Supports almost all operating systems</li>
+                    <li>1 Year warranty</li>
+                  </ol>
+           </li>      
+         </ul>
+		<form action="http://localhost/reg/Project1/kart/addcart16.php" method='post'>
+		Quantity:<input type="number" max="10" min="3" name="quan" >
+		<input type="submit" name="submit" value="Buy now">		
+	</form>
+    </div>
+  </div>
+</div>
 </div>
 <div class="footer">
    <h4>T Kart © 2015 All Rights Reserved</h4>  
 </div>
 </body>
 </html>
-

@@ -2,7 +2,8 @@
       	align:center;
       	font-family:Tahoma, Geneva, sans-serif;
       	font-size:86px;	
-	color:#32419a;
+			color:#32419a;
+	
 	}
 .items  {
       	text-align:center;
@@ -74,4 +75,15 @@ ul.nav a {color:black !important;}
 	color:white;
 }
 .dropdown-menu {background-color:#ccffcc !important;}
-
+.buy{
+	background-color:#0099cc !important;
+	border: 2px solid black;
+	text-color:white !important;
+	height:35px;
+	}
+.buy1{
+	background-color:blue !important;
+	border: 2px solid black;
+	text-color:white !important;
+	height:35px;
+	text-align:center;	}

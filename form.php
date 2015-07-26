@@ -8,9 +8,9 @@ $name = $email ="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$Username ="root";
-	$Password ="your_password";
+	$Password ="hello";
 	$Server = "localhost";
-	$database ="your_database";
+	$database ="kart";
 	$connect = mysqli_connect($Server, $Username, $Password,$database);
 	
 	if(!connect){
