@@ -7,10 +7,10 @@
 	<?php
 	  if(isset($_POST['submit']))
 	  {
-		$username="root";
-		$servername="localhost";
-		$password="hello";
-                $database="kart";
+		$username="adminAhwR2PQ";
+		$servername="127.5.212.130:3306";
+		$password="SZQijmUftmln";
+                $database="praneeth";
 		$connect=mysql_connect($servername,$username,$password,$database);
 		if(!$connect){
 			echo "Error not connected to the server";
@@ -23,7 +23,7 @@
 		$u=$_SESSION['name'];
 		$total=$_SESSION['each'];
 		echo $total."<br>";
-		$sql ="INSERT INTO `kart`.billing (User,Name,Quantity,Price,Total) VALUES ('$u','$name','$quan','$price','$total')";
+		$sql ="INSERT INTO `praneeth`.billing (User,Name,Quantity,Price,Total) VALUES ('$u','$name','$quan','$price','$total')";
                 if (!mysql_query($sql)) {
                       echo "Your item didn't add to the cart";
                 } 
@@ -32,7 +32,7 @@
                   }
 	}	
 	?>
-		 <a href='http://localhost/reg/Project1/Sk.php'>Go to the main website</a>
+		 <a href='http://praneeth-tkart.rhcloud.com/Sk.php'>Go to the main website</a>
 
 </body>
 </html>

@@ -7,13 +7,13 @@
 $name = $email ="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	$Username ="root";
-	$Password ="hello";
-	$Server = "localhost";
-	$database ="kart";
+	$Username="adminAhwR2PQ";	
+        $Password="SZQijmUftmln";
+        $Server = "127.5.212.130:3306";
+	$database ="praneeth";
 	$connect = mysqli_connect($Server, $Username, $Password,$database);
 	
-	if(!connect){
+	if(!$connect){
 		die("Connection failed:" .mysqli_connect_error());
 	}
 	$name = $_POST['name'];
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	mysqli_close($connect);
 }	
 ?>
-	<a href="http://localhost/reg/Project1/login.html">Click this to login</a>"
+	<a href="http://praneeth-tkart.rhcloud.com/login.html">Click this to login</a>"
 </body>
 </html>
 

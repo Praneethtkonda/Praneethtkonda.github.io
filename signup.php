@@ -48,7 +48,7 @@
 <!-- Main body of the form -->	
  <legend><h1 class="heading">Don't have an account,Sign up</h1></legend>
   <div class="container">
-		<form method="post" action="http://localhost/reg/Project1/form.php">
+		<form method="post" action="http://praneeth-tkart.rhcloud.com/form.php">
 		  Name:<input type="text" name="name"></input><br>
 		  Age    :		<input type="number" name="age"></input><br>
     		  E-mail:<input type="email" name="mail"><br>

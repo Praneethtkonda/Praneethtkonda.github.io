@@ -28,23 +28,23 @@
   <nav class="navbar navbar-default">
     <div>
       <ul class="nav navbar-nav">
-        <li><a href="http://localhost/reg/Project1/Sk.php">Home</a></li>
+        <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">categories
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://localhost/reg/Project1/Sk.php">Pc Games</a></li>
-            <li><a href="http://localhost/reg/Project1/Sk.php">Smartphones</a></li>
-            <li><a href="http://localhost/reg/Project1/Sk.php">External Harddisks</a></li>
-            <li><a href="http://localhost/reg/Project1/Sk.php">Optical Mouse</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Pc Games</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Smartphones</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">External Harddisks</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Optical Mouse</a></li>
           </ul>
         </li>
         <li><a href="contact.html"><span class="change">Contact us</span></a></li>
         <li><a href="http://www.praneethtkonda.wordpress.com"><span class="change"> Visit my blog</span></a></li>
         <ul class="nav navbar-nav navbar-right">
         <ul class="nav navbar-nav navbar-right">
-        	<li class="active"><a href="http://localhost/reg/Project1/cart.php"><span class="glyphicons glyphicons-shopping-cart"></span>Your Cart</a></li>
-        	<li><a href="http://localhost/reg/Project1/l.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        	<li class="active"><a href="http://praneeth-tkart.rhcloud.com/cart.php"><span class="glyphicons glyphicons-shopping-cart"></span>Your Cart</a></li>
+        	<li><a href="http://praneeth-tkart.rhcloud.com/l.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
         </ul>
         </ul>
      </ul>   

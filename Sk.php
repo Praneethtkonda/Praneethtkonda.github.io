@@ -33,18 +33,18 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">categories
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="index.html">Pc Games</a></li>
-            <li><a href="index.html">Smartphones</a></li>
-            <li><a href="index.html">External Harddisks</a></li>
-            <li><a href="index.html">Optical Mouse</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Pc Games</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Smartphones</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">External Harddisks</a></li>
+            <li><a href="http://praneeth-tkart.rhcloud.com/Sk.php">Optical Mouse</a></li>
           </ul>
         </li>
         <li><a href="contact.html"><span class="change">Contact us</span></a></li>
         <li><a href="http://www.praneethtkonda.wordpress.com"><span class="change"> Visit my blog</span></a></li>
         <ul class="nav navbar-nav navbar-right">
         <ul class="nav navbar-nav navbar-right">
-        	<li><a href="http://localhost/reg/Project1/cart.php"><span class="glyphicons glyphicons-shopping-cart"></span>Your Cart</a></li>
-        	<li><a href="http://localhost/reg/Project1/l.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        	<li><a href="http://praneeth-tkart.rhcloud.com/cart.php"><span class="glyphicons glyphicons-shopping-cart"></span>Your Cart</a></li>
+        	<li><a href="http://praneeth-tkart.rhcloud.com/l.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
         </ul>
         </ul>
      </ul>   
@@ -74,7 +74,7 @@
                   </ol>
            </li>      
          </ul>
-         <form action="http://localhost/reg/Project1/kart/addcart1.php" method='post'>
+         <form action="http://praneeth-tkart.rhcloud.com/addcart1.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -96,7 +96,7 @@
                   </ol>
            </li>      
          </ul>
-			 <form action="http://localhost/reg/Project1/kart/addcart2.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/addcart2.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" class="Buy" value="Buy now">		
 	</form>
@@ -118,7 +118,7 @@
            </li>      
            <li></li> 
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart3.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart3.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -139,7 +139,7 @@
                   </ol>
            </li>      
          </ul>
-			 <form action="http://localhost/reg/Project1/kart/addcart4.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/addcart4.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -171,7 +171,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart5.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart5.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -197,7 +197,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart6.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart6.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -224,7 +224,7 @@
                   </ol>
             </li>      
           </ul>
-			 <form action="http://localhost/reg/Project1/kart/addcart7.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/addcart7.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -250,7 +250,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart8.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart8.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -281,7 +281,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart9.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart9.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -305,7 +305,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://localhost/reg/Project1/kart/addcart10.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/addcart10.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -329,7 +329,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://localhost/reg/Project1/kart/addcart11.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/addcart11.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -353,7 +353,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://localhost/reg/Project1/kart/addcart12.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/addcart12.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -382,7 +382,7 @@
                   </ol>
            </li>      
          </ul>
-			<form action="http://localhost/reg/Project1/kart/addcart13.php" method='post'>
+			<form action="http://praneeth-tkart.rhcloud.com/addcart13.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -406,7 +406,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://localhost/reg/Project1/kart/addcart14.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/addcart14.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -430,7 +430,7 @@
                   </ol>
            </li>      
          </ul>
-   		<form action="http://localhost/reg/Project1/kart/addcart15.php" method='post'>
+   		<form action="http://praneeth-tkart.rhcloud.com/addcart15.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -454,7 +454,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://localhost/reg/Project1/kart/addcart16.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/addcart16.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>

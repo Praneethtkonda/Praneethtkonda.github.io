@@ -8,16 +8,16 @@
 <?php include 'heading.php';?>
 <body background="Photos/bi.jpg">
 		<?php
-			$username="root";
-			$password="hello";
-			$servername="localhost";
-			$database="kart";
+			$username="adminAhwR2PQ";
+			$password="SZQijmUftmln";
+			$servername="127.5.212.130:3306";
+			$database="praneeth";
 			$conn=mysql_connect($servername, $username, $password, $database);	
 			if(!$conn){
 					echo "Not connected";			
 			}
 			$jeffa= $_SESSION['name'];
-			$sql="SELECT * FROM `kart`.billing WHERE User = '$jeffa'";
+			$sql="SELECT * FROM `praneeth`.billing WHERE User = '$jeffa'";
 			$query=mysql_query($sql);
 			echo "<h1 class='Header'>Your cart</h1>";
 			echo"<div class='container'>";
@@ -30,7 +30,7 @@
 			echo "</table>";
 			echo "</fieldset>";
 			echo "</div>"; 	
-			echo "<a href='http://localhost/reg/Project1/Sk.php'>Go to the Website</a>"
+			echo "<a href='http://praneeth-tkart.rhcloud.com/Sk.php'>Go to the Website</a>"
 	
 		?>
 </body>

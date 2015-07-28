@@ -3,10 +3,10 @@
 <html>
 <body>
         <?php
-          $username="root";
-			$password="hello";
-			$servername="localhost";
-			$database="kart";
+          		$username="adminAhwR2PQ";
+			$servername="127.5.212.130:3306";
+			$password="SZQijmUftmln";
+                	$database="praneeth";
 			$conn=mysql_connect($servername, $username, $password, $database);	
 			if(!$conn){
 					echo "Not connected";			
@@ -22,11 +22,11 @@
         <?php
         if(isset($_POST['submit'])){
 					$item=$_POST['item'];
-					$sql="DELETE FROM `kart`.billing WHERE User='$hai' AND Name='$item'";
+					$sql="DELETE FROM `praneeth`.billing WHERE User='$hai' AND Name='$item'";
 					$query=mysql_query($sql);
 					if($query) {
 								echo "Item successfully removed";		
-								echo "<a href='http://localhost/reg/Project1/cart.php'>Go to your cart</a>";
+								echo "<a href='http://praneeth-tkart.rhcloud.com/cart.php'>Go to your cart</a>";
 					}
 					else {
 								echo "Error";	
