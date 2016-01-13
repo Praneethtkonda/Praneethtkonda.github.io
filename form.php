@@ -18,6 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 	$name = $_POST['name'];
 	$age = $_POST['age'];
+	if($age<18){
+		echo "You must be above 18 years to register here";
+		header('Refresh:4; url= http://praneeth-tkart.rhcloud.com/signup.php');
+	}
 	$mail= $_POST['mail'];
 	$pwd = $_POST['pwd'];
 	$sql="INSERT INTO customers(`name`,`age`,`mail`,`password`)
