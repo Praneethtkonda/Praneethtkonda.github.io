@@ -50,7 +50,7 @@
   <div class="container">
 		<form method="post" action="http://praneeth-tkart.rhcloud.com/form.php">
 		  Name:<input type="text" name="name"></input><br>
-		  Age    :		<input type="number" name="age" min="18" max="90"></input><br>
+		  Age    :		<input type="number" name="age" ></input><br>
     		  E-mail:<input type="email" name="mail"><br>
    		  Password:<input type="password" name="pwd"><br>
     		  <input type="submit" value="Register">

@@ -74,7 +74,7 @@
                   </ol>
            </li>      
          </ul>
-         <form action="http://praneeth-tkart.rhcloud.com/addcart1.php" method='post'>
+         <form action="http://praneeth-tkart.rhcloud.com/kart/addcart1.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -96,7 +96,7 @@
                   </ol>
            </li>      
          </ul>
-			 <form action="http://praneeth-tkart.rhcloud.com/addcart2.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart2.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" class="Buy" value="Buy now">		
 	</form>
@@ -118,7 +118,7 @@
            </li>      
            <li></li> 
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart3.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart3.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -139,7 +139,7 @@
                   </ol>
            </li>      
          </ul>
-			 <form action="http://praneeth-tkart.rhcloud.com/addcart4.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart4.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -171,7 +171,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart5.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart5.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -197,7 +197,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart6.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart6.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -224,7 +224,7 @@
                   </ol>
             </li>      
           </ul>
-			 <form action="http://praneeth-tkart.rhcloud.com/addcart7.php" method='post'>
+			 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart7.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -250,7 +250,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart8.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart8.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -281,7 +281,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart9.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart9.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -305,7 +305,7 @@
                   </ol>
            </li>      
          </ul>
-		 <form action="http://praneeth-tkart.rhcloud.com/addcart10.php" method='post'>
+		 <form action="http://praneeth-tkart.rhcloud.com/kart/addcart10.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -329,7 +329,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://praneeth-tkart.rhcloud.com/addcart11.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/kart/addcart11.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -353,7 +353,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://praneeth-tkart.rhcloud.com/addcart12.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/kart/addcart12.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -382,7 +382,7 @@
                   </ol>
            </li>      
          </ul>
-			<form action="http://praneeth-tkart.rhcloud.com/addcart13.php" method='post'>
+			<form action="http://praneeth-tkart.rhcloud.com/kart/addcart13.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -406,7 +406,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://praneeth-tkart.rhcloud.com/addcart14.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/kart/addcart14.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -430,7 +430,7 @@
                   </ol>
            </li>      
          </ul>
-   		<form action="http://praneeth-tkart.rhcloud.com/addcart15.php" method='post'>
+   		<form action="http://praneeth-tkart.rhcloud.com/kart/addcart15.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
@@ -454,7 +454,7 @@
                   </ol>
            </li>      
          </ul>
-		<form action="http://praneeth-tkart.rhcloud.com/addcart16.php" method='post'>
+		<form action="http://praneeth-tkart.rhcloud.com/kart/addcart16.php" method='post'>
 		Quantity:<input type="number" max="10" min="3" name="quan" >
 		<input type="submit" name="submit" value="Buy now">		
 	</form>
